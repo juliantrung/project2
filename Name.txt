@@ -1,4 +1,8 @@
 Tran Quang Trung
 julian
 
+<<<<<<< HEAD
 20144760
+=======
+20144760
+>>>>>>> parent of 325e46f... Changed third the Name.txt
