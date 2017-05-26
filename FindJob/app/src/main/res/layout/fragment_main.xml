@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pro.trung.findjob.MainActivity$PlaceholderFragment">
+
+    <EditText
+        android:id="@+id/etKyNang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Spinner
+        android:id="@+id/spTrinhDo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spNganhHoc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spNganhThich"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spDiaDiem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spKinhNghiem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spMucLuong"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spChucVu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Spinner>
+
+
+
+    <Button
+        android:id="@+id/btTuVan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tư vấn"/>
+
+</LinearLayout>

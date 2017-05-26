@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTuVan"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:text="Tu van"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="Các công việc đề xuất"
+        android:textSize="18dp"
+        tools:background="@android:color/holo_blue_light" />
+
+    <ListView
+        android:id="@+id/lvTuVan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#000"></ListView>
+
+</LinearLayout>

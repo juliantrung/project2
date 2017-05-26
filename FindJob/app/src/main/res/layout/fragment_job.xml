@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTQT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tran Quang Trung"/>
+
+    <TextView
+        android:id="@+id/tvJobNameDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên công việc" />
+
+    <TextView
+        android:id="@+id/tvCompanyDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên công ty: " />
+
+    <TextView
+        android:id="@+id/tvLocationDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa điểm: " />
+
+    <TextView
+        android:id="@+id/tvSalaryDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mức lương: " />
+
+</LinearLayout>

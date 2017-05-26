@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FindJob</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="section_format1">Hello Trung from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="jobs_array">
+        <item>Lao động phổ thông</item>
+        <item>Công nghệ thông tin</item>
+        <item>Cơ khí</item>
+        <item>Kế toán/kiểm toán</item>
+        <item>Mới tốt nghiệp/thực tập</item>
+    </string-array>
+
+    <string-array name="locations_array">
+        <item>Tất cả địa điểm</item>
+        <item>Hà Nội</item>
+        <item>Hồ Chí Minh</item>
+        <item>Đà Nẵng</item>
+        <item>Cần Thơ</item>
+        <item>Hải Phòng</item>
+    </string-array>
+</resources>
